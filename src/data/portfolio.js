@@ -1,10 +1,107 @@
-import {Home,UserRound,Code2,BriefcaseBusiness,GraduationCap,Mail} from 'lucide-react';
-export const projects=[
- {title:'AI Text Summarizer',category:'AI & Full Stack',desc:'An AI-powered application that turns long text into concise summaries using Google Gemini, with a React interface and Spring Boot REST API.',features:['Text summarization using Google Gemini','React interface','Spring Boot REST API'],stack:['React','Spring Boot','Gemini API','Java'],url:'https://github.com/nakashn/AItextsummarizer',tone:'violet',symbol:'✳',image:'/images/ai-summarizer.png'},
- {title:'E-Commerce Web Application',category:'Backend & Web',desc:'An online shopping application with authentication, session management, product management, and a MySQL database.',features:['User authentication and session management','Product management','MySQL database'],stack:['Java','Spring Boot','MySQL'],url:'https://github.com/nakashn/ecommerce',tone:'orange',symbol:'◈',image:null},
- {title:'Khelposhak',category:'Full Stack',desc:'An e-commerce web application with product management, user authentication, and backend database operations.',features:['Product management','User authentication','Backend database operations'],stack:['Java Servlet','JSP','MySQL'],url:'https://github.com/nakashn/khelposhak',tone:'blue',symbol:'▦',image:'/images/khelposhak-final.png'},
- {title:'Real-Time Chat Application',category:'Real Time',desc:'A browser-based chat app powered by Spring Boot and WebSocket for real-time messaging between users.',features:['Browser-based chat','Real-time messaging using WebSocket'],stack:['JavaScript','Spring Boot','WebSocket'],url:'https://github.com/nakashn/chat-app',tone:'green',symbol:'⌁',image:'/images/chat-app.png'}
+export const projects = [
+  {
+    title: 'AI Text Summarizer',
+    category: 'AI & Full Stack',
+    desc: 'An AI-powered application that turns long text into concise summaries using Google Gemini, with a React interface and Spring Boot REST API.',
+    features: [
+      'Text summarization using Google Gemini',
+      'React interface',
+      'Spring Boot REST API',
+    ],
+    stack: ['React', 'Spring Boot', 'Gemini API', 'Java'],
+    url: 'https://github.com/nakashn/AItextsummarizer',
+    tone: 'violet',
+    symbol: '✳',
+    image: '/images/ai-summarizer.png',
+  },
+  {
+    title: 'E-Commerce Web Application',
+    category: 'Backend & Web',
+    desc: 'An online shopping application with authentication, session management, product management, and a MySQL database.',
+    features: [
+      'User authentication and session management',
+      'Product management',
+      'MySQL database',
+    ],
+    stack: ['Java', 'Spring Boot', 'MySQL'],
+    url: 'https://github.com/nakashn/ecommerce',
+    tone: 'orange',
+    symbol: '◈',
+    image: null,
+  },
+  {
+    title: 'Khelposhak',
+    category: 'Full Stack',
+    desc: 'An e-commerce web application with product management, user authentication, and backend database operations.',
+    features: [
+      'Product management',
+      'User authentication',
+      'Backend database operations',
+    ],
+    stack: ['Java Servlet', 'JSP', 'MySQL'],
+    url: 'https://github.com/nakashn/khelposhak',
+    tone: 'blue',
+    symbol: '▦',
+    image: '/images/khelposhak-final.png',
+  },
+  {
+    title: 'Real-Time Chat Application',
+    category: 'Real Time',
+    desc: 'A browser-based chat app powered by Spring Boot and WebSocket for real-time messaging between users.',
+    features: ['Browser-based chat', 'Real-time messaging using WebSocket'],
+    stack: ['JavaScript', 'Spring Boot', 'WebSocket'],
+    url: 'https://github.com/nakashn/chat-app',
+    tone: 'green',
+    symbol: '⌁',
+    image: '/images/chat-app.png',
+  },
 ];
-export const skills=['Java','Spring Boot','React.js','JavaScript','Python','HTML','CSS','REST APIs','Hibernate','MySQL','Oracle Database','Java Servlet','JSP','Git & GitHub','Maven','Apache Tomcat','IntelliJ IDEA','VS Code','Prompt Engineering'];
-export const education=[{school:'Informatics College Pokhara',degree:'BSc (Hons) Computing · London Metropolitan University',date:'2024 – 2027',initial:'ICP'},{school:'Prativa Secondary School',degree:'Higher Secondary (+2 Science) · GPA 3.22',date:'2021 – 2023',initial:'PS'},{school:'Shree Amar Singh Secondary School',degree:'Secondary Education Examination · GPA 3.65',date:'2021',initial:'AS'}];
-export const nav=[{id:'home',label:'Home',icon:Home},{id:'about',label:'About',icon:UserRound},{id:'skills',label:'Skills',icon:Code2},{id:'projects',label:'Projects',icon:BriefcaseBusiness},{id:'education',label:'Education',icon:GraduationCap},{id:'contact',label:'Contact',icon:Mail}];
+export const skills = [
+  'Java',
+  'Spring Boot',
+  'React.js',
+  'JavaScript',
+  'Python',
+  'HTML',
+  'CSS',
+  'REST APIs',
+  'Hibernate',
+  'MySQL',
+  'Oracle Database',
+  'Java Servlet',
+  'JSP',
+  'Git & GitHub',
+  'Maven',
+  'Apache Tomcat',
+  'IntelliJ IDEA',
+  'VS Code',
+  'Prompt Engineering',
+];
+export const education = [
+  {
+    school: 'Informatics College Pokhara',
+    degree: 'BSc (Hons) Computing · London Metropolitan University',
+    date: '2024 – 2027',
+    initial: 'ICP',
+  },
+  {
+    school: 'Prativa Secondary School',
+    degree: 'Higher Secondary (+2 Science) · GPA 3.22',
+    date: '2021 – 2023',
+    initial: 'PS',
+  },
+  {
+    school: 'Shree Amar Singh Secondary School',
+    degree: 'Secondary Education Examination · GPA 3.65',
+    date: '2021',
+    initial: 'AS',
+  },
+];
+export const nav = [
+  { id: 'home', label: 'Home' },
+  { id: 'about', label: 'About' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'education', label: 'Education' },
+  { id: 'contact', label: 'Contact' },
+];

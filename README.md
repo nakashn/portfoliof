@@ -1,12 +1,19 @@
-# Akash Adhikari Portfolio — Component-based React
+# Akash Adhikari Portfolio
 
-## Start
-`npm install` then `npm run dev`
+## Development
+
+```sh
+npm install
+npm run dev
+```
 
 ## Production build
-`npm run build`
 
-Sections are in `src/sections`, shared components in `src/components`, data in `src/data`, hooks in `src/hooks`. Photos are in `public/images`. `vite.config.js` uses the automatic JSX runtime, and explicit React imports also support classic JSX compilation.
+```sh
+npm run build
+npm run preview
+```
 
-Note: The project has been inspected and corrected for the previously reported JSX and React reference errors. A full npm production build could not be run in this environment because package installation timed out.
-# portfoliof
+Sections are in `src/sections`, shared components in `src/components`, data in `src/data`, and hooks in `src/hooks`. Photos are in `public/images`. `vite.config.js` uses the automatic JSX runtime.
+
+There are currently no lint or test scripts configured in `package.json`.

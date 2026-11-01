@@ -1,6 +1,36 @@
-import React from 'react';
-import {motion,AnimatePresence} from 'framer-motion';
-import {Github,Linkedin,Mail,Download,MapPin,ExternalLink,ArrowUpRight,Send,Sparkles,ChevronRight} from 'lucide-react';
-import SectionHeading,{rise} from '../components/SectionHeading';
-import {projects,skills,education} from '../data/portfolio';
-export default function About(){return (<section id="about" className="section"><SectionHeading eyebrow="01 / A LITTLE ABOUT ME" title="About me"/><motion.div {...rise} className="about-text"><p>I'm a <strong>BSc (Hons) Computing student</strong> at Informatics College Pokhara, affiliated with London Metropolitan University. I enjoy turning ideas into working applications, especially on the backend with <strong>Java and Spring Boot</strong>.</p><p>I've worked on e-commerce applications, a WebSocket chat app, and an AI text summarizer. I like learning by building, solving real problems, and collaborating with others.</p></motion.div><motion.div {...rise} className="quick-facts"><div><strong>04</strong><span>Featured projects</span></div><div><strong>2027</strong><span>Expected graduation</span></div><div><strong>Java</strong><span>Primary language</span></div></motion.div></section>);}
+import { motion } from 'framer-motion';
+import SectionHeading, { rise } from '../components/SectionHeading';
+export default function About() {
+  return (
+    <section id="about" className="section">
+      <SectionHeading eyebrow="01 / A LITTLE ABOUT ME" title="About me" />
+      <motion.div {...rise} className="about-text">
+        <p>
+          I'm a <strong>BSc (Hons) Computing student</strong> at Informatics
+          College Pokhara, affiliated with London Metropolitan University. I
+          enjoy turning ideas into working applications, especially on the
+          backend with <strong>Java and Spring Boot</strong>.
+        </p>
+        <p>
+          I've worked on e-commerce applications, a WebSocket chat app, and an
+          AI text summarizer. I like learning by building, solving real
+          problems, and collaborating with others.
+        </p>
+      </motion.div>
+      <motion.div {...rise} className="quick-facts">
+        <div>
+          <strong>04</strong>
+          <span>Featured projects</span>
+        </div>
+        <div>
+          <strong>2027</strong>
+          <span>Expected graduation</span>
+        </div>
+        <div>
+          <strong>Java</strong>
+          <span>Primary language</span>
+        </div>
+      </motion.div>
+    </section>
+  );
+}
